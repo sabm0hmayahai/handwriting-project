@@ -37,6 +37,10 @@ Script:
 
 ![Terminal](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/terminal.jpg)
 
+Google cloud:
+
+![Cloud](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/googlecloud.jpg)
+
 
 Useful links: 
 
