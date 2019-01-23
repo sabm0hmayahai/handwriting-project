@@ -16,14 +16,21 @@ Basically the idea is to digitalise the written things. We are using Arduino mic
    This script contains python smoothning/processing code for all the read values and also uploads PDF result to the cloud.
 
 Images:
+
 ![Setup](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/setup.jpg)
+
 ![Coolterm values](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/coolterm.jpg)
+
 ![Graphical image](https://github.com/BinaryNMIT/handwriting-project/blob/master/A.png)
+
 ![Terminal](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/terminal.jpg)
 
 
 Useful links: 
 https://www.arduino.cc (Arduino official website)
+
 http://freeware.the-meiers.org (Coolterm serial port value reader)
+
+https://cloud.google.com
 (Google cloud setup and official documentation)
 
