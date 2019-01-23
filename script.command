@@ -1,4 +1,4 @@
-cd ~/desktop/hack;
-python test.py;
-gsutil cp /Users/hegderajesh/Desktop/hack/Figure_1.png gs://test-hd
+cd ~/desktop;
+python datasmoothening.py;
+gsutil cp /Users/hegderajesh/Desktop/data/fig1.pdf gs://test-hd
 
