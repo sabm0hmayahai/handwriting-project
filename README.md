@@ -18,9 +18,11 @@ Basically the idea is to digitalise the written things. We are using Arduino mic
 # Images:
 
 Setup:
+
 ![Setup](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/setup.jpg)
 
 Coolterm values:
+
 ![Coolterm values](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/coolterm.jpg)
 
 Graphical images:
@@ -32,6 +34,7 @@ Letter B is smoothened
 ![B](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/Figure_1.png)
 
 Script:
+
 ![Terminal](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/terminal.jpg)
 
 
