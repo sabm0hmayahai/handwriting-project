@@ -17,19 +17,21 @@ Basically the idea is to digitalise the written things. We are using Arduino mic
 
 # Images:
 
-# Setup
+Setup:
 ![Setup](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/setup.jpg)
 
-# Coolterm values
+Coolterm values:
 ![Coolterm values](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/coolterm.jpg)
 
-# Graphical images
+Graphical images:
+Letter A is unsmoothened
+Letter B is smoothened
 
 ![Graphical image](https://github.com/BinaryNMIT/handwriting-project/blob/master/A.png)
 
 ![B](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/Figure_1.png)
 
-# Script
+Script:
 ![Terminal](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/terminal.jpg)
 
 
