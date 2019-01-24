@@ -8,10 +8,7 @@ Arduino UNO, Ultrasonic sensors (HC-SR04), Coolterm software, Python, Shell scri
 Basically the idea is to digitalise the written things. We are using Arduino microcontroller with two Ultrasonic sensors to analyze the movement on the board (2D). The ultrasonic sensors are placed at two corners of the blackboard/whiteboard and can track the precise coordinates of the chalk/marker on the board. Using these coordinates, we plot a digit copy of the writing on the board. We use python to process these and extract out the letters and symbols to convert it into a typed out PDF. Later by running a shell script this file will be uploaded to google cloud and it can be securily shared with people who want have a access to that perticular file.
 
 # Instructions
-1) Setup all hardware connections.
-
-Arduino Uno is a microcontroller board based on the ATmega328P (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, an ICSP header and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started.
-
+1) Setup all hardware connections. Also upload hack.ino to the Arduino board.
 
 Setup:
 
@@ -21,8 +18,11 @@ Setup:
 ![uno](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/uno.png)
 
 2) Install and run Coolterm 
+
    CTRL+R (Record values) 
+   
    CTRL+SHIFT+R (Stop recording)
+   
    This will basically read the data values from the sensor and stores it in text file.
    
  Coolterm values:
