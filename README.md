@@ -15,10 +15,12 @@ Setup:
 ![Setup](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/setup.jpg)
 
 
+![uno](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/uno.png)
+
 2) Install and run Coolterm 
    CTRL+R (Record values) 
    CTRL+SHIFT+R (Stop recording)
-   
+   This will basically read the data values form the sensor and stores it in text file.
    
  Coolterm values:
 
@@ -29,19 +31,21 @@ Setup:
 
 Graphical images:
 Letter A is unsmoothened
-Letter B is smoothened
 
 ![Graphical image](https://github.com/BinaryNMIT/handwriting-project/blob/master/A.png)
+
+Letter B is smoothened 
 
 ![B](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/Figure_1.png)
 
 
-4) Run the process.script with proper "source" and "destination" file location. 
-(Google cloud platform must be setup beforehand, also a bucket should be created in your project on the cloud)
+4) Google cloud platform must be setup on your machine, also a bucket should be created in your project on the cloud.
+
+Run the process.command script with proper "source" and "destination" file location.
 This script contains python smoothning/processing code for all the read values and also uploads PDF result to the cloud and end users can access if they have proper permissions. (access to file)
 
 
-Script:
+Script output:
 
 ![Terminal](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/terminal.jpg)
 
@@ -60,5 +64,5 @@ https://cloud.google.com
 (Google cloud setup and official documentation)
 
 https://matplotlib.org
-(Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.)
+(Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms)
 
