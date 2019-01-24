@@ -1,4 +1,4 @@
 cd ~/desktop;
-python datasmoothening.py;
-gsutil cp /Users/hegderajesh/Desktop/data/fig1.pdf gs://handwriting21
+python dataprocessing.py;
+gsutil cp /Users/hegderajesh/Desktop/demo/demo.pdf gs://handwriting21
 

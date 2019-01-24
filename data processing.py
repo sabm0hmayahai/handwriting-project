@@ -6,7 +6,7 @@ print("start processing . . .\n")
 
 '''file will get two coordinate values seperated by a comma'''
 
-file = open("C:\\Users\\mukhe\\Desktop\\nmit hacks\\data_session9.txt","r")
+file = open("/Users/hegderajesh/Desktop/demo/demo.txt","r")
 
 a = []
 b = []
@@ -21,6 +21,13 @@ for line in file:
     q = int(q)
     a.append(-p)
     b.append(q)
+
+gh=[0,0,0,-80]
+hg=[0,80,0,0]
+plt.plot(gh,hg)
+plt.plot(a,b)
+
+plt.show()
 
 ''' -p is stored in a because our origin is from the right
 unlike the common standard(from the left) supported
@@ -41,10 +48,10 @@ nx = []
 ny = []
 k = 0
 
-'''alpha and tolerance is a key component in the vertical analysis'''
+'''alpha  tolerance is a key component in the vertical analysis'''
 alpha = 15
-tolerance = 2
 
+tolerance = 2
 for i in range(0,length-(alpha+1),alpha):
     s = 0
     for j in range(i,i+alpha):
@@ -54,7 +61,7 @@ for i in range(0,length-(alpha+1),alpha):
     for j in range(i,i+alpha):
         s = s + abs(avg - x[j])
     avg_std_x = s/20
-    print("average standard deviation of x is: ",avg_std_x)
+    #print("average standard deviation of x is: ",avg_std_x)
     if(avg_std_x < tolerance): #if the deviation from mean indicates a vertical line
         nx.append(x[i])
         ny.append(y[i])
@@ -65,7 +72,7 @@ for i in range(0,length-(alpha+1),alpha):
             nx.append((x[j-4]+x[j-3]+x[j-2]+x[j-1]+x[j]+x[j+1]+x[j+2]+x[j+3]+x[j+4])/9)
             ny.append((y[j-4]+y[j-3]+y[j-2]+y[j-1]+y[j]+y[j+1]+y[j+2]+y[j+3]+y[j+4])/9)
         
-    print("i= ",i)
+    #print("i= ",i)
 
 
 length = len(nx)
@@ -86,10 +93,20 @@ plt.plot(nx,ny)
 '''will show the plot, similar to the imshow function in opencv'''
 plt.show()
 
+gh=[0,0,0,-80]
+hg=[0,80,0,0]
+plt.plot(gh,hg)
+plt.plot(nx,ny)
+
+
 '''if enabled, the command will save a pdf of the plotted figure'''
 '''NOTE: only enable ONE of plt.show() or plt.savefig() at a time
 i.e. either show or save figure'''
+print("Successfully processed data session\n")
+print("\nPDF created\n")
+print("\nUploading to cloud . . . \n")
 
-#plt.savefig("C:\\Users\\mukhe\\Desktop\\nmit hacks\\data_session2.pdf")
+plt.savefig("/Users/hegderajesh/Desktop/demo/demo.pdf")
+
 
 print("end of run\n")
