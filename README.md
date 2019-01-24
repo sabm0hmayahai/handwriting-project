@@ -56,6 +56,10 @@ Google cloud:
 
 ![Cloud](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/googlecloud.jpg)
 
+Processed Alphabet:
+
+![Data](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/data-001.jpg)
+
 
 Useful links: 
 
