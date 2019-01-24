@@ -23,7 +23,7 @@ Setup:
 2) Install and run Coolterm 
    CTRL+R (Record values) 
    CTRL+SHIFT+R (Stop recording)
-   This will basically read the data values form the sensor and stores it in text file.
+   This will basically read the data values from the sensor and stores it in text file.
    
  Coolterm values:
 
@@ -33,19 +33,19 @@ Setup:
 3) Now using this (x,y) values a graph is plotted using python program (using mathplotlib) the following visual graph is obtained and saved as pdf (or any kind)
 
 Graphical images:
-Letter A is unsmoothened
+Letter R is unsmoothened
 
-![Graphical image](https://github.com/BinaryNMIT/handwriting-project/blob/master/A.png)
+![R](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/R_unsmooth.png)
 
-Letter B is smoothened 
+Letter R is smoothened 
 
-![B](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/Figure_1.png)
+![R](https://github.com/BinaryNMIT/handwriting-project/blob/master/images/R_smooth.png)
 
 
 4) Google cloud platform must be setup on your machine, also a bucket should be created in your project on the cloud.
 
 Run the process.command script with proper "source" and "destination" file location.
-This script contains python smoothning/processing code for all the read values and also uploads PDF result to the cloud and end users can access if they have proper permissions. (access to file)
+This script contains python smoothening/processing code for all the read values and also uploads PDF result to the cloud and end users can access if they have proper permissions. (access to file)
 
 
 Script output:
